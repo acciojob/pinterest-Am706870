@@ -3,6 +3,7 @@
 	display:flex;
 	justify-content:space-between;
 	align-items: center;
+	/* flex-wrap: wrap; */
 }
 .hero img{
 	width: 400px;
@@ -15,4 +16,21 @@
 	padding: 5px;
 	border-radius: 2px opacity;
 	background-color: red;
+	/* display:flex;
+	flex-direction:column; */
+}
+
+.hero h1{
+	font-size:20px;
+	/* display:flex;
+	flex-direction:column; */
+}
+.hero p{
+	font-size:10px;
+	/* display:flex;
+	flex-direction:column; */
+}
+.hero section{
+	justify-content:space-between;
+	margin: 20px;
 }
